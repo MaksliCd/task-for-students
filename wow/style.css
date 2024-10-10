@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'RobotoMe';
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoRe';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoBo';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoLi';
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_logo {
+    display: flex;
+    margin-right: 95px;
+}
+
+.nav_logo_back {
+    width: 117px;
+    height: 16px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+nav > img {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_ul a {
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.nav_ul a:hover {
+    color: #1f3161;
+}
+
+ul li a {
+    color: #8794BA;
+    font-family: RobotoMe;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.nav_butt button {
+    color: #8794BA;
+    font-family: RobotoMe;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.butt_nav_2:hover {
+    background-color: #2A407C;
+}
+
+.butt_nav_1:hover {
+    color: #2d3d6e;
+}
+
+nav {
+    padding: 50px 0;
+    align-items: center;
+}
+
+.nav_ul {
+    display: flex;
+}
+
+.nav_ul li {
+    padding-right: 36px;
+}
+
+.nav_ul li:last-child {
+    padding-right: 315px;
+}
+
+.butt_nav_1 {
+    border: none;
+    padding-right: 40px;
+}
+
+.butt_nav_2 {
+    border: solid 1px #465B95;
+    border-radius: 68px;
+    width: 161px;
+    height: 40px;
+}
+
+.graffic_left h1 {
+    font-family: RobotoMe;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    color: white;
+}
+
+.graffic_left p {
+    font-family: RobotoLi;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 0;
+    color: #8794BA;
+}
+
+.graffic_left button {
+    border-radius: 68px;
+    width: 238px;
+    height: 50px;
+    background-color: #EF2A82;
+    color: white;
+    border: none;
+    font-family: RobotoMe;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.graffic_left button:hover {
+    background-color: #9d2058;
+}
+
+.graffic_left {
+    width: 550px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graffic img {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    top: 250px;
+}
+
+.graffic {
+    display: flex;
+    margin-left: 340px;
+    margin-top: 150px;
+}
+
+.pod_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+main {
+    margin-top: 350px;
+}
+
+.pod_main h2 {
+    font-family: RobotoMe;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.pod_main_p {
+    font-family: RobotoLi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    width: 1100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ookak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 164px;
+}
+
+.ookak h4 {
+    font-family: RobotoMe;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.ookak p {
+    font-family: RobotoLi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    text-align: center;
+}
+
+.kak {
+    display: flex;
+    margin: 81px 0 130px 0;
+}
+
+.main_wow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 480px;
+    height: 232px;
+}
+
+.main_wow h2 {
+    font-family: RobotoMe;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 30px 0;
+}
+
+.main_wow p {
+    font-family: RobotoLi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    margin: 0;
+}
+
+.main_wowik {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 120px 0;
+}
+
+.vova1 {
+    margin: 0 150px 0 0;
+}
+
+.vova2 {
+    margin: 0 0 0 150px;
+}
+
+.vova3 {
+    margin: 0 150px 0 0;
+}
+
+.pod_foot {
+    width: 1200px;
+    height: 660px;
+}
+
+.pod_foot p {
+    font-family: RobotoLi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    margin: 0;
+}
+
+.pod_foot h2 {
+    font-family: RobotoMe;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 30px 0;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.pod_foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pod1_foot {
+    text-align: center;
+}
+
+.tita h3 {
+    font-family: RobotoMe;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 30px 0;
+    color: white;
+    margin: 30px 0 0 0;
+}
+
+.tita {
+    background-color: #0F1F4B;
+}
+
+.tita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tita p {
+    font-family: RobotoLi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    margin: 10px 0 0 0;
+}
+
+hr {
+    margin: 37px 0;
+    background: #2A407C;
+    width: 220px;
+}
+
+.tita h4 {
+    font-family: RobotoMe;
+    font-size: 60px;
+    line-height: 48px;
+    margin: 0 0 30px 0;
+    color: white;
+}
+
+.tita button {
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-family: RobotoMe;
+    border-radius: 68px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid #2A407C;
+    margin: 40px 0 0 0;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.tita button:hover {
+    background: #2A407C;
+}
+
+.wowo {
+    width: 340px;
+    height: 440px;
+    border-radius: 30px;
+}
+
+.glava_woti {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 100px 0;
+}
+
+.hr_foot {
+    width: 1200px;
+    margin-left: 18%;
+}
+
+.foot_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.qqw {
+    padding: 0 40px 0 0;
+}
